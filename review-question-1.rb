@@ -1,5 +1,5 @@
 ## QUESTION 1
-
+require 'pry'
 pokemon = [
   {
     "id": 1,
@@ -59,9 +59,9 @@ pokemon = [
   ]
 }
 ]
+binding.pry
 
-
-# How would you get the url for Bulbasaur's ability?
+# How would you get the url for Bulbasaur's ability? pokemon[0[abilities][0][:ability][:url]]
 # How would you return the first pokemon with base experience over 40?
 # How would you return ALL OF THE pokemon with base experience over 40? (Gotta catch em all)
 # How would you return an array of all of the pokemon's names?
